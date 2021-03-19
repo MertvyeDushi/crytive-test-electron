@@ -1,4 +1,4 @@
-# crytivo-test-2
+# crytivo-test-electron
 
 ## Project setup
 ```
@@ -20,5 +20,12 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Compiles and hot-reloads for development with Electron
+```
+npm run electron:serve
+```
+
+### Compiles and minifies for production with Electron
+```
+npm run electron:build
+```
